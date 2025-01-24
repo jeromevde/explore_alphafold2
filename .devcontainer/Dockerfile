@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install PyTorch and PyTorch3D
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-RUN pip install --no-cache-dir pytorch3d
 
 # Install additional Python dependencies
 RUN pip install --no-cache-dir \

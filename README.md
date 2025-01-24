@@ -1,5 +1,7 @@
 # Install
 
+Code taken from https://github.com/lucidrains/alphafold2 
+
 ```
 pip install openmm alphafold2-pytorch
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
