@@ -1,6 +1,8 @@
 #%%
+
 import torch
 from alphafold2_pytorch import Alphafold2
+
 
 model = Alphafold2(
     dim = 256,
