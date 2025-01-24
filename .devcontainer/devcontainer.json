@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
