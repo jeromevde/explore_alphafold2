@@ -1,6 +1,6 @@
 #%%
 import torch
-from alphafold2.alphafold2 import Alphafold2
+from alphafold2 import Alphafold2
 
 model = Alphafold2(
     dim = 256,
@@ -20,9 +20,4 @@ distogram = model(
     mask = mask,
     msa_mask = msa_mask
 ) # (1, 128, 128, 37)
-
-# %%
-from torchsummary import summary
-summary(model, input_size=(1, 128))
-
 # %%
