@@ -1,0 +1,13 @@
+einops>=0.3
+En-transformer>=0.2.3
+invariant-point-attention
+mdtraj>=1.8
+numpy
+proDy
+requests
+sidechainnet
+transformers
+tqdm
+biopython
+mp-nerf>=0.1.5
+openmm

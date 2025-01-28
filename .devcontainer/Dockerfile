@@ -12,16 +12,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 # Install additional Python dependencies
-RUN pip install --no-cache-dir \
-    einops>=0.3 \
-    En-transformer>=0.2.3 \
-    invariant-point-attention \
-    mdtraj>=1.8 \
-    numpy \
-    proDy \
-    requests \
-    sidechainnet \
-    transformers \
-    tqdm \
-    biopython \
-    mp-nerf>=0.1.5
+RUN pip install --no-cache-dir -r requirements.txt
